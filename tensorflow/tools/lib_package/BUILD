@@ -171,6 +171,9 @@ genrule(
         "//tensorflow:no_aws_support": [],
         "//conditions:default": [
             "@aws//:LICENSE",
+            "@aws-checksums//:LICENSE",
+            "@aws-c-event-stream//:LICENSE",
+            "@aws-c-common//:LICENSE",
         ],
     }) + select({
         "//tensorflow:android": [],
