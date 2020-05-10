@@ -20,7 +20,6 @@ def repo():
     third_party_http_archive(
         name = "aws-c-common",
         urls = [
-            "https://mirror.tensorflow.org/github.com/awslabs/aws-c-common/archive/v0.4.29.tar.gz",
             "https://github.com/awslabs/aws-c-common/archive/v0.4.29.tar.gz",
         ],
         sha256 = "01c2a58553a37b3aa5914d9e0bf7bf14507ff4937bc5872a678892ca20fcae1f",
@@ -31,7 +30,6 @@ def repo():
     third_party_http_archive(
         name = "aws-c-event-stream",
         urls = [
-            "https://mirror.tensorflow.org/github.com/awslabs/aws-c-event-stream/archive/v0.1.4.tar.gz",
             "https://github.com/awslabs/aws-c-event-stream/archive/v0.1.4.tar.gz",
         ],
         sha256 = "31d880d1c868d3f3df1e1f4b45e56ac73724a4dc3449d04d47fc0746f6f077b6",
@@ -42,7 +40,6 @@ def repo():
     third_party_http_archive(
         name = "aws-checksums",
         urls = [
-            "https://mirror.tensorflow.org/github.com/awslabs/aws-checksums/archive/v0.1.5.tar.gz",
             "https://github.com/awslabs/aws-checksums/archive/v0.1.5.tar.gz",
         ],
         sha256 = "6e6bed6f75cf54006b6bafb01b3b96df19605572131a2260fddaf0e87949ced0",
