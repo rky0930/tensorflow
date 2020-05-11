@@ -143,8 +143,7 @@ ensure best practices are followed.
 """
 
 def _third_party_http_archive(ctx):
-    if ((len(ctx.attr.urls) < 2 and
-         ctx.attr.name not in _SINGLE_URL_WHITELIST.to_list())):
+    if (ctx.attr.name not in _SINGLE_URL_WHITELIST.to_list()):
         fail("tf_http_archive(urls) must have redundant URLs. The " +
              "Even if you don't have permission to mirror the file, please " +
              "put the correctly formatted mirror URL there anyway, because " +
